@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.birt.report.servlet;
+package org.apache.ofbiz.birt.report.servlet;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -26,8 +26,8 @@ import javax.servlet.http.HttpServletRequestWrapper;
 
 import org.eclipse.birt.report.utility.DataUtil;
 import org.eclipse.birt.report.utility.ParameterAccessor;
-import org.ofbiz.base.location.FlexibleLocation;
-import org.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.location.FlexibleLocation;
+import org.apache.ofbiz.base.util.Debug;
 
 public class ViewerServletRequest extends HttpServletRequestWrapper {
     

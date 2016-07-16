@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.birt.email;
+package org.apache.ofbiz.birt.email;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -35,25 +35,25 @@ import org.apache.fop.apps.FOPException;
 import org.eclipse.birt.report.engine.api.EngineException;
 import org.eclipse.birt.report.engine.api.IReportEngine;
 import org.eclipse.birt.report.engine.api.IReportRunnable;
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.GeneralException;
-import org.ofbiz.base.util.UtilGenerics;
-import org.ofbiz.base.util.UtilMisc;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.base.util.collections.MapStack;
-import org.ofbiz.base.util.string.FlexibleStringExpander;
-import org.ofbiz.birt.BirtFactory;
-import org.ofbiz.birt.BirtWorker;
-import org.ofbiz.common.email.NotificationServices;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.util.EntityUtilProperties;
-import org.ofbiz.security.Security;
-import org.ofbiz.service.DispatchContext;
-import org.ofbiz.service.LocalDispatcher;
-import org.ofbiz.service.ServiceUtil;
-import org.ofbiz.widget.renderer.ScreenRenderer;
-import org.ofbiz.widget.renderer.ScreenStringRenderer;
-import org.ofbiz.widget.renderer.macro.MacroScreenRenderer;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.GeneralException;
+import org.apache.ofbiz.base.util.UtilGenerics;
+import org.apache.ofbiz.base.util.UtilMisc;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.base.util.collections.MapStack;
+import org.apache.ofbiz.base.util.string.FlexibleStringExpander;
+import org.apache.ofbiz.birt.BirtFactory;
+import org.apache.ofbiz.birt.BirtWorker;
+import org.apache.ofbiz.common.email.NotificationServices;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.util.EntityUtilProperties;
+import org.apache.ofbiz.security.Security;
+import org.apache.ofbiz.service.DispatchContext;
+import org.apache.ofbiz.service.LocalDispatcher;
+import org.apache.ofbiz.service.ServiceUtil;
+import org.apache.ofbiz.widget.renderer.ScreenRenderer;
+import org.apache.ofbiz.widget.renderer.ScreenStringRenderer;
+import org.apache.ofbiz.widget.renderer.macro.MacroScreenRenderer;
 import org.xml.sax.SAXException;
 
 import freemarker.template.TemplateException;

@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.birt.report.servlet;
+package org.apache.ofbiz.birt.report.servlet;
 
 import java.util.Map;
 
@@ -30,8 +30,8 @@ import org.eclipse.birt.report.service.BirtReportServiceFactory;
 import org.eclipse.birt.report.service.ReportEngineService;
 import org.eclipse.birt.report.servlet.ViewerServlet;
 import org.eclipse.birt.report.utility.ParameterAccessor;
-import org.ofbiz.base.util.UtilGenerics;
-import org.ofbiz.birt.BirtWorker;
+import org.apache.ofbiz.base.util.UtilGenerics;
+import org.apache.ofbiz.birt.BirtWorker;
 
 @SuppressWarnings("serial")
 public class BirtViewerServlet extends ViewerServlet {

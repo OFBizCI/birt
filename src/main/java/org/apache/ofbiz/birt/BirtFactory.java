@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.birt;
+package org.apache.ofbiz.birt;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,9 +25,9 @@ import java.net.URL;
 import javax.xml.parsers.ParserConfigurationException;
 
 import org.eclipse.birt.report.engine.api.IReportEngine;
-import org.ofbiz.base.location.FlexibleLocation;
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.widget.model.ScreenFactory;
+import org.apache.ofbiz.base.location.FlexibleLocation;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.widget.model.ScreenFactory;
 import org.xml.sax.SAXException;
 
 /**

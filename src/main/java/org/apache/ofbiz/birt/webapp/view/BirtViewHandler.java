@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.birt.webapp.view;
+package org.apache.ofbiz.birt.webapp.view;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -33,18 +33,18 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.eclipse.birt.core.exception.BirtException;
 import org.eclipse.birt.report.engine.api.IReportEngine;
 import org.eclipse.birt.report.engine.api.IReportRunnable;
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.base.util.GeneralException;
-import org.ofbiz.base.util.UtilGenerics;
-import org.ofbiz.base.util.UtilHttp;
-import org.ofbiz.base.util.UtilValidate;
-import org.ofbiz.birt.BirtFactory;
-import org.ofbiz.birt.BirtWorker;
-import org.ofbiz.entity.Delegator;
-import org.ofbiz.entity.GenericEntityException;
-import org.ofbiz.entity.util.EntityUtilProperties;
-import org.ofbiz.webapp.view.ViewHandler;
-import org.ofbiz.webapp.view.ViewHandlerException;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.base.util.GeneralException;
+import org.apache.ofbiz.base.util.UtilGenerics;
+import org.apache.ofbiz.base.util.UtilHttp;
+import org.apache.ofbiz.base.util.UtilValidate;
+import org.apache.ofbiz.birt.BirtFactory;
+import org.apache.ofbiz.birt.BirtWorker;
+import org.apache.ofbiz.entity.Delegator;
+import org.apache.ofbiz.entity.GenericEntityException;
+import org.apache.ofbiz.entity.util.EntityUtilProperties;
+import org.apache.ofbiz.webapp.view.ViewHandler;
+import org.apache.ofbiz.webapp.view.ViewHandlerException;
 import org.xml.sax.SAXException;
 
 public class BirtViewHandler implements ViewHandler {
@@ -72,7 +72,7 @@ public class BirtViewHandler implements ViewHandler {
             HttpServletResponse response) throws ViewHandlerException {
         
         try {
-            IReportEngine engine = org.ofbiz.birt.BirtFactory.getReportEngine();
+            IReportEngine engine = org.apache.ofbiz.birt.BirtFactory.getReportEngine();
             // open report design
             IReportRunnable design = null;
             if (page.startsWith("component://")) {

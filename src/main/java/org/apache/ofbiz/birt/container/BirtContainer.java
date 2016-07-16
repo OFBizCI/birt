@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  *******************************************************************************/
-package org.ofbiz.birt.container;
+package org.apache.ofbiz.birt.container;
 
 import java.io.File;
 import java.util.logging.Level;
@@ -27,11 +27,11 @@ import org.eclipse.birt.report.IBirtConstants;
 import org.eclipse.birt.report.engine.api.EngineConfig;
 import org.eclipse.birt.report.engine.api.IReportEngine;
 import org.eclipse.birt.report.engine.api.IReportEngineFactory;
-import org.ofbiz.base.container.Container;
-import org.ofbiz.base.container.ContainerConfig;
-import org.ofbiz.base.container.ContainerException;
-import org.ofbiz.base.util.Debug;
-import org.ofbiz.birt.BirtFactory;
+import org.apache.ofbiz.base.container.Container;
+import org.apache.ofbiz.base.container.ContainerConfig;
+import org.apache.ofbiz.base.container.ContainerException;
+import org.apache.ofbiz.base.util.Debug;
+import org.apache.ofbiz.birt.BirtFactory;
 
 public class BirtContainer implements Container {
 
